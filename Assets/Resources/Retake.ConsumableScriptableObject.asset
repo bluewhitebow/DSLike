@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfd60d0a5d4dc24a8eda6292ee240dd, type: 3}
+  m_Name: Retake.ConsumableScriptableObject
+  m_EditorClassIdentifier: 
+  consumabs:
+  - itemName: bestus
+    itemDescription: 
+    icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    consumableEffect: bestus
+    targetAnim: bestus
+    itemPrefab: {fileID: 1717092648401548, guid: b48fdaebe719ec945866a0c3146c6414,
+      type: 2}
+    r_model_pos: {x: 0, y: 0, z: 0}
+    r_model_eulers: {x: 0, y: 0, z: 0}
+    model_scale: {x: 0, y: 0, z: 0}
+  - itemName: bestus_focus
+    itemDescription: 
+    icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    consumableEffect: bestus_focus
+    targetAnim: bestus
+    itemPrefab: {fileID: 1612152431800412, guid: 89d21e966d71dbb47bc8b22b9d9f9fc2,
+      type: 2}
+    r_model_pos: {x: 0, y: 0, z: 0}
+    r_model_eulers: {x: 0, y: 0, z: 0}
+    model_scale: {x: 1, y: 1, z: 1}
+  - itemName: souls
+    itemDescription: 
+    icon: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    consumableEffect: souls
+    targetAnim: use_item
+    itemPrefab: {fileID: 0}
+    r_model_pos: {x: 0, y: 0, z: 0}
+    r_model_eulers: {x: 0, y: 0, z: 0}
+    model_scale: {x: 0, y: 0, z: 0}

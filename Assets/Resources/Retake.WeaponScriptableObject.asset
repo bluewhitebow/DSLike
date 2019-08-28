@@ -1,0 +1,486 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0915eb44ecbc5d547b655b5bee915a9b, type: 3}
+  m_Name: Retake.WeaponScriptableObject
+  m_EditorClassIdentifier: 
+  weapons_all:
+  - itemName: unarmed
+    itemDescription: 
+    icon: {fileID: 21300000, guid: d36f0419ea1cb0e4da19adf1f75b2583, type: 3}
+    oh_idle: empty
+    th_idle: Empty Both
+    actions:
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: punch 1
+      comboSteps: []
+      mirror: 1
+      canBeParried: 1
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 1
+      canBackStab: 1
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 2
+        targetAnim: kick 1
+      comboSteps: []
+      mirror: 1
+      canBeParried: 1
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 1
+      canBackStab: 1
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 1
+      damageAnim: attack_interrupt
+    two_handedActions: []
+    parryMultiplier: 0
+    backstabMultiplier: 0
+    LeftHandMirror: 0
+    modelPrefeb: {fileID: 1603926282598652, guid: a05e2ced939dedd4981ed0cf261ffba4,
+      type: 2}
+    r_model_pos: {x: -0.0092, y: 0.0294, z: -0.0109}
+    l_model_pos: {x: 0.0112, y: 0.048, z: -0.0023}
+    r_model_eulers: {x: 333.00406, y: 42.039635, z: 92.93133}
+    l_model_eulers: {x: 355.9081, y: 56.491386, z: 99.990005}
+    model_scale: {x: 0.42401707, y: 0.4481497, z: 0.44814974}
+  - itemName: sword
+    itemDescription: 
+    icon: {fileID: 21300000, guid: 684127eace90be9478f85095430ec65a, type: 3}
+    oh_idle: oh_idle
+    th_idle: th_idle
+    actions:
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: 
+      comboSteps: []
+      mirror: 0
+      canBeParried: 1
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 1
+      canBackStab: 1
+      staminaCost: 20
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    two_handedActions:
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: 
+      comboSteps: []
+      mirror: 0
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    parryMultiplier: 0
+    backstabMultiplier: 0
+    LeftHandMirror: 0
+    modelPrefeb: {fileID: 1929984952532446, guid: fd887c641efc0d6488df437a160b3b3a,
+      type: 2}
+    r_model_pos: {x: 0.0048, y: 0.0218, z: -0.0214}
+    l_model_pos: {x: 0.0112, y: 0.048, z: -0.0023}
+    r_model_eulers: {x: 1.996233, y: 214.53487, z: 269.9305}
+    l_model_eulers: {x: 355.9081, y: 56.491386, z: 99.990005}
+    model_scale: {x: 0.39, y: 0.39, z: 0.39}
+  - itemName: Pyromancy Flame
+    itemDescription: 
+    icon: {fileID: 21300000, guid: f39eeaefc73fe0948878b66ac94d5e21, type: 3}
+    oh_idle: oh_idle
+    th_idle: th_idle
+    actions:
+    - type: 2
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: 
+      comboSteps: []
+      mirror: 1
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 0
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    two_handedActions:
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: 
+      comboSteps: []
+      mirror: 0
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    parryMultiplier: 0
+    backstabMultiplier: 0
+    LeftHandMirror: 0
+    modelPrefeb: {fileID: 1603926282598652, guid: a05e2ced939dedd4981ed0cf261ffba4,
+      type: 2}
+    r_model_pos: {x: 0.0048, y: 0.0218, z: -0.0214}
+    l_model_pos: {x: 0.0112, y: 0.048, z: -0.0023}
+    r_model_eulers: {x: 1.996233, y: 214.53487, z: 269.9305}
+    l_model_eulers: {x: 355.9081, y: 56.491386, z: 99.990005}
+    model_scale: {x: 0.39, y: 0.39, z: 0.39}
+  - itemName: sword_gs
+    itemDescription: 
+    icon: {fileID: 21300000, guid: 179f2fb81874d634280b93e6ebe01143, type: 3}
+    oh_idle: gs_oh_idle
+    th_idle: gs_th_idle
+    actions:
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: gs_oh_attack_1
+      comboSteps: []
+      mirror: 0
+      canBeParried: 1
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 1
+      canBackStab: 1
+      staminaCost: 20
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 2
+        targetAnim: gs_oh_attack_2
+      comboSteps: []
+      mirror: 0
+      canBeParried: 1
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 1
+      canBackStab: 1
+      staminaCost: 20
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    two_handedActions:
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: gs_th_attack_1
+      comboSteps: []
+      mirror: 0
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 2
+        targetAnim: gs_th_to_pose
+      comboSteps:
+      - input: 2
+        targetAnim: gs_attack_from_pose
+      mirror: 0
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    parryMultiplier: 0
+    backstabMultiplier: 0
+    LeftHandMirror: 1
+    modelPrefeb: {fileID: 1929984952532446, guid: fd887c641efc0d6488df437a160b3b3a,
+      type: 2}
+    r_model_pos: {x: 0.0048, y: 0.0218, z: -0.0214}
+    l_model_pos: {x: 0.0112, y: 0.048, z: -0.0023}
+    r_model_eulers: {x: 1.996233, y: 214.53487, z: 269.9305}
+    l_model_eulers: {x: 355.9081, y: 56.491386, z: 99.990005}
+    model_scale: {x: 0.39, y: 0.39, z: 0.39}
+  - itemName: rapier
+    itemDescription: 
+    icon: {fileID: 21300000, guid: 0efb5831e93f0e241b8ab1cf085635ee, type: 3}
+    oh_idle: oh_idle
+    th_idle: th_idle
+    actions:
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: 
+      comboSteps: []
+      mirror: 0
+      canBeParried: 1
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 1
+      canBackStab: 1
+      staminaCost: 20
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    two_handedActions:
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: 
+      comboSteps: []
+      mirror: 0
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: 
+      comboSteps: []
+      mirror: 0
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    parryMultiplier: 0
+    backstabMultiplier: 0
+    LeftHandMirror: 1
+    modelPrefeb: {fileID: 1929984952532446, guid: fd887c641efc0d6488df437a160b3b3a,
+      type: 2}
+    r_model_pos: {x: 0.0048, y: 0.0218, z: -0.0214}
+    l_model_pos: {x: 0.0112, y: 0.048, z: -0.0023}
+    r_model_eulers: {x: 1.996233, y: 214.53487, z: 269.9305}
+    l_model_eulers: {x: 355.9081, y: 56.491386, z: 99.990005}
+    model_scale: {x: 0.39, y: 0.39, z: 0.39}
+  - itemName: shield
+    itemDescription: 
+    icon: {fileID: 21300000, guid: e387a54b3d6c6234396c7bb40989db1e, type: 3}
+    oh_idle: oh_idle
+    th_idle: th_idle
+    actions:
+    - type: 1
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: shield
+      comboSteps: []
+      mirror: 1
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 0
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    - type: 3
+      spellClass: 0
+      firstStep:
+        input: 2
+        targetAnim: parry
+      comboSteps: []
+      mirror: 1
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 0
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    two_handedActions:
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: 
+      comboSteps: []
+      mirror: 0
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    - type: 0
+      spellClass: 0
+      firstStep:
+        input: 0
+        targetAnim: 
+      comboSteps: []
+      mirror: 0
+      canBeParried: 0
+      changeSpeed: 0
+      animSpeed: 0
+      canParry: 0
+      canBackStab: 0
+      staminaCost: 5
+      focusCost: 0
+      overrideKick: 0
+      kickAnim: 
+      parryMultiplier: 0
+      backstabMultiplier: 0
+      ovverideDamageAnim: 0
+      damageAnim: 
+    parryMultiplier: 0
+    backstabMultiplier: 0
+    LeftHandMirror: 1
+    modelPrefeb: {fileID: 1405616755709366, guid: f3c4df707f5b0174dbc7d01c86da39c4,
+      type: 2}
+    r_model_pos: {x: 0.012, y: 0.022, z: 0.003}
+    l_model_pos: {x: 0.01, y: 0.028, z: 0.003}
+    r_model_eulers: {x: 355.8637, y: 333.1944, z: 60.47953}
+    l_model_eulers: {x: 332.6768, y: 305.9098, z: 264.3536}
+    model_scale: {x: 0.3937, y: 0.3937, z: 0.3937}
+  weaponStats:
+  - weaponId: sword_gs
+    physical: 50
+    strike: 0
+    slash: 0
+    thrust: 0
+    magic: 0
+    fire: 0
+    lighting: 0
+    dark: 0
+  - weaponId: sword
+    physical: 25
+    strike: 0
+    slash: 0
+    thrust: 0
+    magic: 0
+    fire: 0
+    lighting: 0
+    dark: 0
+  - weaponId: unarmed
+    physical: 25
+    strike: 0
+    slash: 0
+    thrust: 0
+    magic: 0
+    fire: 0
+    lighting: 0
+    dark: 0
